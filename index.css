@@ -1,0 +1,43 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+  --main-color:#0062ff;
+  --btn-color:,
+}
+
+
+.container{
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 9.6rem 2.4rem;
+}
+
+html
+{
+  font-size: 62.5%;
+}
+
+.grid {
+  display: grid;
+  gap:9.6rem;
+}
+
+.grid-two-cols{
+ grid-template-columns: repeat(2,1fr);
+}
+
+.grid-three-cols{
+  grid-template-columns: repeat(3,1fr);
+}
+
